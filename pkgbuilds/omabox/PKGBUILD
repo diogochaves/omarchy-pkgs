@@ -7,7 +7,7 @@
 # `omabox setup`, run by that user: a package cannot link into anyone's HOME.
 
 pkgname=omabox
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc='Contained, invisible Hyprland + Omarchy desktop where agents run, drive and screenshot apps'
 arch=('x86_64')
@@ -37,7 +37,7 @@ optdepends=("python: omabox log journal (a box's journal sockets), the agent gua
             'nftables: protect-ports (host ports no connected box reaches)')
 install=omabox.install
 source=("$url/releases/download/v$pkgver/$pkgname-$pkgver.tar.gz")
-sha256sums=('905603b3e5198beb5d00bd8617954b006f44823073e4c460e67f8019f7155bc9')
+sha256sums=('b8759938ddc591ddeed659c1a69168aed7330ab539a6ba6b2e4052c1ea071f2f')
 
 _tools=(pointer keyboard wlfd peek still relay events burst tree)
 
